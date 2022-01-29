@@ -19,5 +19,4 @@ def mergeSort(a,left,right):
     for i in range(len(a)):
         if buf[left] <= buf[right]:
             a[i] = buf[left]
-        
 
